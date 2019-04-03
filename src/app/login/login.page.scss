@@ -8,7 +8,7 @@ $height100: 100%;
 ion-grid {
     width:100%;
     height: $height100;
-    background: #fff;
+    background: #dfdfdf;
 }
 
 ion-row {
@@ -16,12 +16,14 @@ ion-row {
 }
 
 ion-col {
-    border: 1px solid #488aff;
+    border: 1px solid #303d5d;
     background: $white-color;
 }
 
 ion-button {
+    color: white;
     font-weight: 300;
+    
 }
 
 @media (min-width: 240px) and (max-width: 768px) {
@@ -32,3 +34,4 @@ ion-button {
         border: none;
     }
 }
+/*303d5d*/
